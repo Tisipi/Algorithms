@@ -1,2 +1,2 @@
 # Algorithms
-Some basic well known algorithms.
+Some basic well-known algorithms.
