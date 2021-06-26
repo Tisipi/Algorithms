@@ -6,6 +6,7 @@ ONE_CHAR_STRING = 'a'
 STRING = 'abc9def'
 REVERSED_STRING ='fed9cba'
 
+
 class TestReverseString(unittest.TestCase):
 
     def test_reverse_string_simple(self):
