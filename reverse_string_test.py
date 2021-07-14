@@ -1,16 +1,18 @@
 import unittest
-from reverse_string import reverse_string_simple, reverse_string_iterative, reverse_string_recursive
+from reverse_string import (
+    reverse_string,
+    reverse_string_iterative,
+    reverse_string_recursive,
+)
 
-EMPTY_STRING = ''
-ONE_CHAR_STRING = 'a'
-STRING = 'abc9def'
-REVERSED_STRING ='fed9cba'
+EMPTY_STRING = ""
+ONE_CHAR_STRING = "a"
+STRING = "abc9def"
+REVERSED_STRING = "fed9cba"
 
 
 class TestReverseString(unittest.TestCase):
-
-    def test_reverse_string_simple(self):
-        
+    def reverse_string(self):
         self.assertEqual(reverse_string_simple(EMPTY_STRING), EMPTY_STRING)
         self.assertEqual(reverse_string_simple(ONE_CHAR_STRING), ONE_CHAR_STRING)
         self.assertEqual(reverse_string_simple(STRING), REVERSED_STRING)
