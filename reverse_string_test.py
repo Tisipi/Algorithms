@@ -12,10 +12,10 @@ REVERSED_STRING = "fed9cba"
 
 
 class TestReverseString(unittest.TestCase):
-    def reverse_string(self):
-        self.assertEqual(reverse_string_simple(EMPTY_STRING), EMPTY_STRING)
-        self.assertEqual(reverse_string_simple(ONE_CHAR_STRING), ONE_CHAR_STRING)
-        self.assertEqual(reverse_string_simple(STRING), REVERSED_STRING)
+    def test_reverse_string(self):
+        self.assertEqual(reverse_string(EMPTY_STRING), EMPTY_STRING)
+        self.assertEqual(reverse_string(ONE_CHAR_STRING), ONE_CHAR_STRING)
+        self.assertEqual(reverse_string(STRING), REVERSED_STRING)
 
     def test_reverse_string_iterative(self):
         self.assertEqual(reverse_string_iterative(EMPTY_STRING), EMPTY_STRING)
