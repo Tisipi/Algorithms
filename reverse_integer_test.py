@@ -21,7 +21,6 @@ class TestReverseInteger(unittest.TestCase):
         self.assertEqual(reverse_integer(9000000), 9)
 
     def test_reverse_negative_integer(self):
-        # reverse_integer(-15)
         self.assertEqual(reverse_integer(-15), -51)
         #
         self.assertEqual(reverse_integer(-90), -9)
