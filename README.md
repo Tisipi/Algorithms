@@ -5,9 +5,9 @@ Algorithms are written in Python using Test Driven Development. Every algorithm 
 
 Algorithm | Description
 --------- | -----------
-reverse_string  |   Reverses a string. Miscellaneous solutions.
-palindrome  |   Checks whether a string is a palindrome.
-reverse_integer |   Reverses an integer.
-max_char    |   Calculates most occurring character in a string.
+reverse_string      |   Reverses a string. Miscellaneous solutions.
+palindrome          |   Checks whether a string is a palindrome.
+reverse_integer     |   Reverses an integer.
+max_char            |   Calculates most occurring character in a string.
 character_frequency |   Similar to max_char above, but using Class that creates frequency of characters.
 
