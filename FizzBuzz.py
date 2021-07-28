@@ -18,6 +18,6 @@ def fizz_buzz(number):
     return number
 
 
-if __name__ == "__main__":
-    # for i in range(1, 46):
-    #     print(i, fizz_buzz(i))
+# if __name__ == "__main__":
+# for i in range(1, 46):
+#     print(i, fizz_buzz(i))
