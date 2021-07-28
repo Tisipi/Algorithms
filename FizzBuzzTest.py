@@ -1,10 +1,6 @@
 import unittest
 from FizzBuzz import fizz_buzz
 
-#  print "Fizz" instead of the number
-# - for multiples of five print "Buzz"
-# - for multiples of both three and five print "FizzBuzz"
-
 
 class Test_FizzBuzz(unittest.TestCase):
     def test_fizz(self):
